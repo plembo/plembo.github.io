@@ -14,3 +14,9 @@ li {
 .navbar {
     font-size: large;
 } 
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    
+  }
