@@ -9,8 +9,11 @@
     </head>
     <body>
         <div class="container-fluid">
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-1"></div>
+               <div class="col-sm-10">
+               <nav class="navbar navbar-inverse">
+               <div class="container-fluid">
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">Phil Lembo</a>
                     </div>
@@ -21,75 +24,39 @@
                         <li><a href="#Links">Links</a></li>
                     </ul>
                 </div>
-            </nav>
-            <!-- <div class="container-fluid"> -->
+                </nav>
                 <div class="text-center">
                     <img class="img-fluid" src="img/throughreeds.jpg"
                      alt="View of gulls through the reeds by Jeffrey Beach (2012)"
                      longdesc="https://archive.org/details/ThroughTheReeds">
                      <div class="caption">"Through the Reeds", on a misty calm morning</div>
                 </div>
-            <!-- </div> -->
-            <div>
-                <h3 id="About">About</h3>
-                <p>I grew up near the shore of a bay much like that pictured above. That probably explains
-                my immediate connection to the video it was captured from. Or maybe after almost 30 years
-                of involvement in systems administration I'm just a sucker for the sense of serenity it conveys.</p>
-                <p>
-                Most of my career as a tech professional has been as a sysadmin ("I am root"). For the
-                15 years starting at the beginning of this century I served as lead engineer for directory
-                services ("I am Directory Manager") at a large global company. Over the years I've wrestled with
-                refrigerator-sized servers, tried to make sense of the "camel put together by a committee" that
-                is a certain enterprise resource planning application stack, written a pile of perl code, and
-                fought off potentially crippling DDOS attacks coming from purportedly "secure" networks. I've
-                also happily guided my fair share of polytechnic school graduates through the rough and tumble
-                world of systems integration, "American style" (much to their amusement, and horror!).
-                </p>
-                <p>
-                As more and more software solutions have moved off-premesis to the cloud, I've been spending a
-                lot of time working with the new technologies that are being made possible by application
-                containers, software defined networking and serverless architectures. It's been a wild ride,
-                and it looks like I just won an E-ticket to another round.
-                </p>
-            </div>
-            <div>
-                <h3 id="Articles">Articles</h3>
-                <p>While most of what I've written is in the form of confidential, but boring, technical documentation.
-                I have authoried a few guides that are publicly available on my <a href="https://github.com/plembo/onemoretech/wiki" target="_blank">
-                Github wiki</a>. Here are some examples.</p>
-                <div class="row">
-                    <div class="col-sm-4 text-center">
-                        <div class="thumbnail">
-                            <a href="https://gist.github.com/plembo/c5bf7c4154910ac3693e14bb42b32ebf" target="_blank">
-                                <img src="img/python36-on-ubuntu.jpg" alt="Installing Python 3.6">
-                            </a>
-                            <div class="caption">Installing Python 3.6</div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <div class="thumbnail">
-                            <a href="https://github.com/plembo/onemoretech/wiki/20150108-tweaking-apache-for-new-realities" target="_blank">
-                                <img src="img/tweaking-apache.jpg" alt="Tweaking Apache"> 
-                            </a>
-                            <div class="caption">Tweaking Apache for new realities</div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <div class="thumbnail">
-                            <a href="https://github.com/plembo/onemoretech/wiki/OpenDJ-Cheat-Sheet" target="_blank">
-                                <img src="img/opendj-cheatsheet.jpg" alt="OpenDJ Cheat Sheet">
-                            </a>
-                            <div class="caption">OpenDJ Cheat Sheet</div>
-                        </div>
-                    </div>
-                </div>
+                <div>
+                    <h3 id="About">About</h3>
+                    <p>I grew up near the shore of a bay much like that pictured above. That probably explains
+                    my immediate connection to the video it was captured from. Or maybe after almost 30 years
+                    of involvement in systems administration I'm just a sucker for the sense of serenity it conveys.</p>
 
-            </div>
-            <div>
-                <h3 id="Coding">Code</h3>
-                <p>Most of the coding I've done has also been for work, and as a result is company confidentaial
-                and not sharable. But here are some samples of a few things I've done outside work.</p>
-                <div class="row">
+                    <p>Most of my career as a tech professional has been as a sysadmin ("I am root"). For the
+                    15 years starting at the beginning of this century I served as lead engineer for directory
+                    services ("I am Directory Manager") at a large global company. Over the years I've wrestled with
+                    refrigerator-sized servers, tried to make sense of the "camel put together by a committee" that
+                    is a certain enterprise resource planning application stack, written a pile of perl code, and
+                    fought off potentially crippling DDOS attacks coming from purportedly "secure" networks. I've
+                    also happily guided my fair share of polytechnic school graduates through the rough and tumble
+                    world of systems integration, "American style" (much to their amusement, and horror!).</p>
+                    
+                    <p>As more and more software solutions have moved off-premesis to the cloud, I've been spending a
+                    lot of time working with the new technologies that are being made possible by application
+                    containers, software defined networking and serverless architectures. It's been a wild ride,
+                    and it looks like I just won an E-ticket to another round.</p>
+                </div>
+                <div>
+                    <h3 id="Articles">Articles</h3>
+                    <p>While most of what I've written is in the form of confidential, but boring, technical documentation,
+                    I have authored a few guides that are publicly available on my <a href="https://github.com/plembo/onemoretech/wiki" target="_blank">
+                    Github wiki</a>. Here are some examples.</p>
+                    <div class="row">
                         <div class="col-sm-4 text-center">
                             <div class="thumbnail">
                                 <a href="https://gist.github.com/plembo/c5bf7c4154910ac3693e14bb42b32ebf" target="_blank">
@@ -115,10 +82,54 @@
                             </div>
                         </div>
                     </div>
+
+                </div>
+                <div>
+                    <h3 id="Code">Code</h3>
+                    <p>Most of the coding I've done has also been for work, and as a result is company confidentaial
+                    and not sharable. But here are some samples of a few things I've done outside. Most of my public
+                    code can be found under <a href="https://github.com/plembo/onemoretech" target="_blank">onemoretech</a> on my
+                    <a href="https://github.com/plembo" target="_blank">Github pages</a>. All code is released under the 
+                    <a href="http://www.perlfoundation.org/artistic_license_2_0" target="_blank">Artistic License 2.0</a>.
+                    Artistic License</a>.</p>
+                    <div class="row">
+                        <div class="col-sm-4 text-center">
+                            <div class="thumbnail">
+                                <a href="https://github.com/plembo/onemoretech/blob/master/scripts/getpodcasts.pl" target="_blank">
+                                    <img src="img/getpodcasts.pl.jpg" alt="getpodcasts.pl perl script">
+                                </a>
+                                <div class="caption">getpodcasts.pl</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <div class="thumbnail">
+                                <a href="https://github.com/plembo/onemoretech/blob/master/scripts/ldap3-obj.py" target="_blank">
+                                    <img src="img/ldap3-obj.py.jpg" alt="LDAPv3 in Python 3"> 
+                                </a>
+                                <div class="caption">ldap3-obj.py</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <div class="thumbnail">
+                                <a href="https://github.com/plembo/onemoretech/blob/master/scripts/bumaint.sh" target="_blank">
+                                    <img src="img/bumaint.sh.jpg" alt="bumaint.sh script">
+                                </a>
+                                <div class="caption">bumaint.sh</div>
+                            </div>
+                        </div>
+                    </div>
                 <h3 id="Links">Links</h3>
                 <p>These are some links to stuff I think might be important.</p>
 
             </div>
         </div>
+
+      </div class="col-sm-1"></div>
+      <footer class="text-center">
+            <hr>
+            <p>&copy; 2018 by <a href="https://github.com/plembo" target="_blank">Phil Lembo</a></p>
+            </footer>
+      </div>
+
     </body>
 </html>
