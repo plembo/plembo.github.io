@@ -20,3 +20,7 @@ li {
     height: auto;
     
   }
+
+.thumbnail {
+    width: 100%;
+}
