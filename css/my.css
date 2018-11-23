@@ -4,12 +4,6 @@ body {
 h2 {
     text-align: center;
 }
-.navbar-brand {
-    font-size: x-large;
-}
-.navbar {
-    font-size: large;
-}
 .feature-img {
     width: 90%;
 }
