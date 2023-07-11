@@ -1,25 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Document
-  </title>
- </head>
- <body>
-  <h1>
-   My Blog Home
-  </h1>
-  <a href="index.html">
-   Home
-  </a>
-  <a href="content/1.html">
-   1
-  </a>
-  <a href="content/2.html">
-   2
-  </a>
- </body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/my.css">
+        <title>Phil Lembo</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">Phil Lembo</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Portfolio">Portfolio</a></li>
+                            <li><a href="#Articles">Articles</a></li>
+                            <li><a href="#Code">Code</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    </nav>
+                    <div class="text-center feature-image">
+                        <img class="img-fluid" src="img/throughreeds.jpg"
+                        alt="View of gulls through the reeds by Jeffrey Beach (2012)"
+                        longdesc="https://archive.org/details/ThroughTheReeds">
+                        <div class="caption">"Through the Reeds", on a misty calm morning</div>
+                    </div>
+                    <div>
+                        <h3 id="About">About</h3>
+                        <p>Most of my career as a tech professional has been as a sysadmin doing desktop support, managing
+                        web servers and integrating applications in a global corporate environment. For around a decade in
+                        the middle of all that I served as a lead engineer for directory and access services for the same
+                        company.</p>
+                    
+                        <p>As more software solutions have moved off-premesis to the cloud, I've been spending a
+                        lot of time working with the new technologies that are being made possible by application
+                        containers, software defined networking and serverless architectures.</p>
+                    </div>
+                    <div>
+                        <h3 id="Portfolio">Portfolio</h3>
+                        <p>Some web sites I have built.</p>
+                        <div class="row">
+                             <div class="col-sm-4">
+                                <div class="thumbnail">
+                                    <a href="https://codepen.io/plembo/full/aYYdvM/" target="_blank">
+                                        <img src="img/TheLostLM.jpg" alt="Snoopy, the lost Lunar Module">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="thumbnail">
+                                    <a href="http://www.casalembo.com/" target="_blank">
+                                        <img src="img/CasalemboHome.jpg" alt="Casa Lembo AWS">
+                                    </a>
+                                </div>
+                                </div>
+                            <div class="col-sm-4">
+                                <div class="thumbnail">
+                                    <a href="http://web.archive.org/web/20130902153159/http://onemoretech.wordpress.com:80/" target="_blank">
+                                        <img src="img/OnemoretechOnWordpress.jpg" alt="Onemoretech WordPress site">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 id="Articles">Articles</h3>
+                        <p>I have authored a few guides that are publicly available in <a href="https://gist.github.com/plembo" target="_blank">Github gists</a> and on my
+                        <a href="https://github.com/plembo/onemoretech/wiki" target="_blank">Github wiki</a>. Here are some examples.</p>
+                        <div class="row">
+                            <div class="col-sm-4 text-center">
+                                <div class="thumbnail">
+                                    <a href="https://gist.github.com/plembo/f2f6d6df4343520c35fc9b042ea4c5c0" target="_blank">
+                                        <img src="img/manage-python.png" alt="Manage python versions with pyenv">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <div class="thumbnail">
+                                    <a href="https://github.com/plembo/onemoretech/wiki/20150108-tweaking-apache-for-new-realities" target="_blank">
+                                        <img src="img/tweaking-apache.jpg" alt="Tweaking Apache"> 
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <div class="thumbnail">
+                                    <a href="https://github.com/plembo/onemoretech/wiki/OpenDJ-Cheat-Sheet" target="_blank">
+                                        <img src="img/opendj-cheatsheet.jpg" alt="OpenDJ Cheat Sheet">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 id="Code">Code</h3>
+                        <p>Here are some samples of my coding. Some of my public code can be found in the
+                        <a href="https://github.com/plembo/onemoretech" target="_blank">onemoretech repo</a> on my
+                        <a href="https://github.com/plembo" target="_blank">Github pages</a>.</p>
+                        <div class="row">
+                            <div class="col-sm-4 text-center">
+                                <div class="thumbnail">
+                                    <a href="https://github.com/plembo/onemoretech/blob/master/scripts/getpodcasts.pl" target="_blank">
+                                        <img src="img/getpodcasts.pl.jpg" alt="getpodcasts.pl perl script">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <div class="thumbnail">
+                                    <a href="https://github.com/plembo/onemoretech/blob/master/scripts/ldap3-obj.py" target="_blank">
+                                        <img src="img/ldap3-obj.py.jpg" alt="LDAPv3 in Python 3"> 
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <div class="thumbnail">
+                                    <a href="https://github.com/plembo/onemoretech/blob/master/scripts/bumaint.sh" target="_blank">
+                                        <img src="img/bumaint.sh.jpg" alt="bumaint.sh script">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <footer class="footer">
+                            <hr>
+                            <div class="social text-center" id="Contact">
+                                <p>Contact me:</p>
+                                <a class="btn btn-social-icon btn-lg btn-linkedin" href="https://www.linkedin.com/in/phil-lembo-nc/" target="_blank">
+                                    <span class="fab fa-linkedin"></span>
+                                </a>
+                                <a class="btn btn-social-icon btn-lg btn-github" href="https://github.com/plembo" target="_blank">
+                                    <span class="fab fa-github"></span>
+                                </a>
+                                <a class="btn btn-social-icon btn-lg btn-mastodon" rel="me" href="https://mastodon.sdf.org/@philnc" target="_blank">
+                                    <span class="fab fa-mastodon"></span>
+                                </a>
+                            </div>
+                            <p></p>
+                            <div class="copyright text-center">
+                                <p>&copy; 2018-2022 by Phil Lembo</p>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
