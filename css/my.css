@@ -1,8 +1,9 @@
-body {
+body, html {
     font-size: large;
 }
 h3 {
     text-align: center;
+    padding: 20px;
 }
 .navbar-brand {
     font-size: x-large;
