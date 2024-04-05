@@ -35,6 +35,7 @@ a:link {
 .card {
     width: 100%;
     margin: 10px;
+    border: 1px;
 }
 .card-group {
     display: flex;
