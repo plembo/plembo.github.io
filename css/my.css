@@ -42,7 +42,7 @@ a:link {
 }
 .card-img-top {
     width: 100%;
-    height: 18vw;
+    height: 12vw;
     object-fit: cover;
 }
 .card-body {
