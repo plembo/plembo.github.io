@@ -8,7 +8,7 @@
  		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- <link rel="stylesheet" href="css/my.css"> -->
+        <link rel="stylesheet" href="css/my.css">
         <script defer src="assets/fontawesome/js/brands.min.js"></script>
         <script defer src="assets/fontawesome/js/fontawesome.min.js"></script>
     </head>
@@ -68,6 +68,8 @@
             </p>
 
             <h3 id="Portfolio" class="text-center">Portfolio</h3>
+
+            <p class="fs-6">Web sites I have created:</p>
             <div class="card-group">
                 <div class="card h-100">
                     <a href="https://codepen.io/plembo/full/aYYdvM/" target="_blank">
@@ -94,7 +96,7 @@
 
             <h3 id="Articles" class="text-center">Articles</h3>
             <p class="fs-6">I have authored a few guides that are publicly available in <a href="https://gist.github.com/plembo" target="_blank">Github gists</a> and on my
-            <a href="https://github.com/plembo/onemoretech/wiki" target="_blank">Github wiki</a>. Here are some examples.</p>
+            <a href="https://github.com/plembo/onemoretech/wiki" target="_blank">Github wiki</a>, like these:</p>
             <div class="card-group">
                 <div class="card h-100">
                     <a href="https://gist.github.com/plembo/52801908305c02d3680b55608fbdb19c" target="_blank">
@@ -102,7 +104,8 @@
                         <h5 class="card-title">Managing Python</h5></a>
                         <p class="card-text">
                             I was recently inspired by an article entitled "Relieving your Python packaging pain"
-                            to rethink how I manage python...
+                            to rethink how I manage python. 
+                            <p>Here's what I came up with.</p>
                         </p>
                     </div>
                 </div>
@@ -113,6 +116,7 @@
                         <p class="card-text">
                             This is for a common use case: setting up static networking from the command line on a linux system
                             that uses NetworkManager.
+                            <p>Like they say, "Fun for the whole family."</p>
                         </p>
                     </div>
                 </div>
@@ -121,66 +125,69 @@
                     <div class="card-body">
                         <h5 class="card-title">OpenDJ Cheat Sheet</h5></a>
                         <p class="card-text">
-                            OpenDJ was the open source enterprise-grade LDAP directory server created by some former Sun employees
-                            that sadly went proprietary.
+                            OpenDJ was an open source enterprise-grade LDAP directory server from some former Sun employees.
+                            <p>Like many open source success stories, it eventually went proprietary.</p>
                         </p>
                     </div>
                 </div>
             </div>
+
             <h3 id="Code" class="text-center">Code</h3>
+            <p class="fs-6">Here is some code I have written.</p>
             <div class="card-group"> 
                 <div class="card h-100">
                     <a href="https://github.com/plembo/onemoretech/blob/main/scripts/testcsvxs.pl" target="_blank">
                     <div class="card-body">
                         <h5 class="card-title">Perl Text::CSV_XS</h5></a>
                         <p class="card-text">
-                        <pre><code>
+                        <pre>
 #!/usr/bin/perl
 # Test Text::CSV_XS module operation.
 use strict;
 use Text::CSV_XS;
 my $HOME = $ENV{'HOME'};
 my $infile = "$HOME/testfile.csv";
-                        </code></pre>
+                        </pre>
                         </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card h-100">
                     <div class="card-body">
                         <a href="https://github.com/plembo/onemoretech/blob/main/scripts/shrink-imgs.py" target="_blank">
                         <h5 class="card-title">Python resize images</h5></a>
                         <p class="card-text">
-                            <pre><code>
+                            <pre>
 #!/usr/bin/env python
 # Resize all images in a folder
 import os
 from PIL import image
 HOME = os.environ['HOME']
 source = os.path.join(HOME, 'data' ...
-                            </code></pre>
+                            </pre>
                             </p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card h-100">
                     <div class="card-body">
                         <a href="https://github.com/plembo/onemoretech/blob/main/scripts/gdrive-mount" target="_blank">
                         <h5 class="card-title">Mount gDrive with bash</h5></a>
                         <p class="card-text">
-                            <pre><code>
+                            <pre>
 #!/bin/bash
 # Mount Google Drive at
 # ~/Drive in background
 /usr/bin/rclone \
 --vfs-cache-mode writes \
 mount gdrive: ${HOME}/Drive --daemon
-                            </code></pre>
+                            </pre>
                             </p>
                     </div>
                 </div>
             </div>
         </div>
+
         <footer class="footer">
-                <hr>
+            <div class="container">
                 <div class="social text-center" id="Contact">
                     <p>Contact me:</p>
                     <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/phil-lembo-nc/" role="button">
@@ -197,7 +204,7 @@ mount gdrive: ${HOME}/Drive --daemon
                 <div class="copyright text-center">
                     <p>&copy; 2018-2024 by Phil Lembo</p>
                 </div>
-            </footer>
-        </div>
+            </div>
+        </footer>
     </body>
 </html>
